@@ -1,0 +1,14 @@
+La fascinante intelligence artificielle ChatGPT pourrait bien dépasser la toile.
+
+Il y a quatre mois la strat-up californienne OpenAI a lançé un robot conversationnel novateur: ChatGPT. L'intelligence artificielle peut répondre à toutes vos questions. Elle peut vous rédiger un poème, votre discours de mariage et vous expliquer la théorie cellulaire comme ses inventeurs Matthias Schleiden et Theodor Schwann. Mais 
+ChatGPT vient du mot "chat" qui signifie fil de discussions, et "GPT",  qui désigne "Generative Pre-trained Transformer", en français "Transformeur génératif pré-entraîné". 
+Ce nouveau robot conversationnel a été lancé par la société OpenAI, créée par Elon Musk et Sam Altman en 2015. Cet assistant virtuel lui permet de dialoguer avec l'utilisateurs.
+Cette intelligence artificielle dépasse tous les autres robots conversationnels. Elle utilise toutes les informations en lien avec la question pour donner une réponse structurer à l'utilisateur. ChatGPT peut être considérer comme un thérapeute. En effet elle se souvient des précédentes questions de son interlocuteur et affine ses réponses en fonction. Mais le prototype est loin d'être parfait.
+ChatGPT possède ses limites. L'intelligence artificielle n'a accès qu'aux évènements antérieur à 2021. La base de données de ChatGPT est très vaste mais reste limitée. Le chatbot a du mal à comprendre les questions structurées des utilisateurs. Ainsi l'échange avec l'intelligence artificielle n'est donc pas une vraie discussion, l'utilisateur ne peut que poser des questions il ne peut pas débattre avec le chatbot.
+En janvier 2023 100 millions de comptes ont été enregistrés. L'application possède alors la croissance la plus rapide jusqu'à ce jour. L'intelligence artificielle pourrait-elle dépasser internet malgré ses difficultés?
+
+
+« C’est le plus gros modèle existant, en matière de paramètres et de données utilisés. Et d’un point de vue technique, c’est sans doute le modèle le plus performant », estime Marie-Alice Blete, ingénieure data, spécialisée en intelligence artificielle
+
+autre lien 
+https://fr.wikipedia.org/wiki/ChatGPT

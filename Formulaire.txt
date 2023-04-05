@@ -1,0 +1,43 @@
+<!DOCTYPEhtml>
+<html>
+    <head>
+        <title>Formulaire d'inscription</title>
+    </head>
+    <body>
+        <fieldset>
+            <legend>Inscription</legend>
+                <form action=""method="get">
+                    <label for="Nom">Nom</label>
+                    <input type="text" name="utilisateur" id="identifiant" placeholder="Name" required/> </br>
+                </br>
+                    <label for="Prénom">Prénom</label>
+                    <input type="text" name="utilisateur" id="identifiant" placeholder="Prénom" required/> </br>
+                </br>
+                    <label for="date de naissance">Date de naissance</label>
+                    <input type="date" name="utilisateur" id="date" required/> </br>
+                </br>
+                <fieldset>
+                    <legend>Lieu de Naissance</legend>
+                    <form action=""method="get">
+                        <input type="radio" id="html" name="fav_language" value="HTML">
+                        <label for="Paris">Paris</label><br>
+                    </br>
+                    <input type="radio" id="html" name="fav_language" value="HTML">
+                    <label for="Autre">Autre</label><br>
+                    </br>
+                        <label for="choisir">Choisissez</label>
+                        <textarea id="choisir" rows="2" cols="30" min="0" max="95" required></textarea> </br>
+                    </br>
+                </fieldset>
+                </br>
+                <form action=""method="get">
+                    <label for="adresse postale">Adresse Postale</label>
+                    <textarea id="choisir" rows="2" cols="30" min="0" max="95" required></textarea> </br>
+                </br>
+                    <label for="mail">email</label>
+                    <input type="email" name="utilisateur" id="mail" value="Mail"/> </br>
+                </br>
+                <input type="submit" value="Envoyer"/>
+            <fieldset>
+    </body>
+</html>

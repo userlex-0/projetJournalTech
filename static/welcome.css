@@ -1,0 +1,255 @@
+:root {
+  --black: #191825;
+  --blue: #865DFF;
+  --purple: #E384FF;
+  --pink: #FFA3FD;
+}
+
+* {
+  font-family: 'Space Mono', monospace;
+}
+
+.background {
+  display: flex;
+  flex-direction: column;
+}
+
+.title{
+  font-size: 4em;
+  color: var(--purple);
+  text-align: center;
+}
+
+.centered {
+  text-align: center;
+}
+
+.mainT {
+  color: var(--purple);
+}
+.secT {
+  color: var(--blue); 
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  border: solid red 1px;
+  border-radius: 20px;
+  top: 100%;
+  width: 300px;
+  height: 800px;
+}
+
+/* animation page de bienvenue */
+.welcomebody {
+  width: 100%;
+  height: 70vh;
+  background: #29303f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  position: relative;
+  background: #1e1e1e;
+  width: auto;
+  height: 200px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index:10;
+  overflow: hidden;
+}
+
+.container span {
+  font-size: 6rem;
+  font-family: 'Space Mono', monospace;
+  color: whitesmoke;
+  z-index: 1;
+}
+
+.container::after {
+  content: "";
+  position: absolute;
+  inset: 5px;
+  background-color: #29303f;
+  border-radius: 20px;
+}
+
+.container::before {
+  content: "";
+  position: absolute;
+  background: linear-gradient(#005eff, #b400fb);  /* dégradé de couleur */
+  width: 150px;
+  height: 1500px;
+  left:550px;
+  animation: animate 6s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* fin de l'animation de bienvenue */
+
+/* animation du background */
+.wrapper {
+  display: block;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: 2;    /* le z-index est pour indiquer la priorité des calques (pour la souris) */
+}
+.videoWrapper {
+  display: block;
+  float: left;
+  margin-top: 30px;
+}
+
+#bg-animation {
+  display: block;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+
+/* animation bouton neon */
+.mainButton {
+  margin-top: 70px;
+  z-index: 10;
+}
+.neonButton{
+    position: relative;
+    display: inline-block;
+    padding: 25px 30px;
+    margin: 40px 0;
+    color: var(--blue);
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    overflow: hidden;
+    margin-right: 50px;
+   
+}
+.neonButton:hover{
+    background: var(--blue);
+    color: #050801;
+    box-shadow: 0 0 5px var(--blue),
+                0 0 25px var(--blue),
+                0 0 50px var(--blue),
+                0 0 200px var(--blue);
+     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+
+.neonButton span{
+    position: absolute;
+    display: block;
+}
+.neonButton span:nth-child(1){
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,var(--blue));
+    animation: animate1 1s linear infinite;
+}
+@keyframes animate1{
+    0%{
+        left: -100%;
+    }
+    50%,100%{
+        left: 100%;
+    }
+}
+.neonButton span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,var(--blue));
+    animation: animate2 1s linear infinite;
+    animation-delay: 0.25s;
+}
+@keyframes animate2{
+    0%{
+        top: -100%;
+    }
+    50%,100%{
+        top: 100%;
+    }
+}
+.neonButton span:nth-child(3){
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,var(--blue));
+    animation: animate3 1s linear infinite;
+    animation-delay: 0.50s;
+}
+@keyframes animate3{
+    0%{
+        right: -100%;
+    }
+    50%,100%{
+        right: 100%;
+    }
+}
+
+
+a span:nth-child(4){
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,var(--blue));
+    animation: animate4 1s linear infinite;
+    animation-delay: 0.75s;
+}
+@keyframes animate4{
+    0%{
+        bottom: -100%;
+    }
+    50%,100%{
+        bottom: 100%;
+    }
+}
+
+/* style page d'articles */
+.flex-container {
+  display: flex;
+  margin: 20px;
+}
+
+.flex-child {
+  margin: 10px;
+  flex: 1;
+  border: 2px solid var(--purple);
+  border-radius: 20px;
+  height: 200px;
+}
+
+.article {
+  border: none;
+  height: auto;
+  color:white;
+  text-align: justify;
+}
+
+.left {
+  background-color: grey;
+  padding: 10px;
+  height: auto;
+}
+
+

@@ -1,0 +1,123 @@
+{% extends 'base.html' %}    <!-- "import" de la page base.html -->
+
+{% block head %}
+{% endblock %}
+
+{% block title %} - Accueil {% endblock %}
+
+{% block body %}
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <img src="https://labua.univ-angers.fr/wp-content/uploads/2023/01/chat-gpt.jpeg" class="card-img-top" alt="chat-gpt-image">
+      <div class="card-body">
+        <h5 class="card-title">Chat GPT</h5>
+        <p class="card-text">ChatGPT est un prototype d'agent conversationnel utilisant l'intelligence artificielle, développé par OpenAI et spécialisé dans le dialogue.</p>
+        <a href="/chat-gpt" class="btn btn-primary">Aller vers l'article</a>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Intelligence artificielle</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="https://lepetitjournal.com/sites/default/files/styles/main_article/public/2022-04/pixel%20war%20france.png?itok=NGZGBXXZ" class="card-img-top" alt="img-pixelwar">
+      <div class="card-body">
+        <h5 class="card-title">Pixel War</h5>
+        <p class="card-text">Une immense page blanche de 4 millions de pixels (format de 2000 x 2000 pixels) est mise à disposition de tout Internet.</p>
+        <a href="/pixel-war" class="btn btn-primary">Aller vers l'article</a>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Enjeux societaux d'internet</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="https://jai-un-pote-dans-la.com/wp-content/uploads/2023/03/jupdlc-ingenieur-cybersecurite.jpg" class="card-img-top" alt="img-cyber">
+      <div class="card-body">
+        <h5 class="card-title">Enjeux de la cybersécurité en 2023</h5>
+        <p class="card-text">2023 sera une année très animée sur le secteur de la sécurité numérique, la protection contre les cyberattaques devient un enjeu majeur pour les entreprises et les États.</p>
+        <a href="/cyber" class="btn btn-primary">Aller vers l'article</a>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Dangers et enjeux de la cybersécurité</small>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+
+<form class="row g-6 formulaire">
+  <div class="col-md-6">
+    <label for="inputEmail4" class="form-label">Adresse mail</label>
+    <input type="email" class="form-control" id="inputEmail4">
+  </div>
+  <div class="col-md-6">
+    <label for="inputPassword4" class="form-label">Mot de passe</label>
+    <input type="password" class="form-control" id="inputPassword4" placeholder="Créez un mot de passe">
+  </div>
+  
+  <div class="col-12">
+    <label for="inputAddress" class="form-label">Adresse</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="Ex : 12 rue Brunel">
+  </div>
+  <div class="col-md-6">
+    <label for="inputCity" class="form-label">Ville de résidence</label>
+    <input type="text" class="form-control" id="inputCity">
+  </div>
+  <div class="col-md-4">
+    <label for="inputState" class="form-label">Région</label>
+    <select id="inputState" class="form-select">
+      <option selected>Choisissez</option>
+      <option>Auvergne-Rhône-Alpes</option>
+      <option>Bourgogne-Franche-Comté</option>
+      <option>Bretagne</option>
+      <option>Centre-Val de Loire</option>
+      <option>Corse</option>
+      <option>Hauts-de-France</option>
+      <option>Île-de-France</option>
+      <option>Normandie</option>
+      <option>Nouvelle-Aquitaine</option>
+      <option>Occitanie</option>
+      <option>Pays de la Loire</option>
+      <option>Provence-Alpes-Côte d'Azur</option>
+    </select>
+  </div>
+  <div class="col-md-2">
+    <label for="inputZip" class="form-label">Code Postal</label>
+    <input type="text" class="form-control" id="inputZip">
+  </div>
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Restez informé
+      </label>
+    </div>
+  </div>
+  <div class="col-12" style="margin-top: 10px;">
+    <button type="submit" class="btn btn-primary">S'enregistrer</button>
+  </div>
+</form>
+<br>
+<br>
+<!-- 
+<div class="card text-center">
+  <div class="card-header">
+    Crédits
+  </div>
+   
+  <div class="card-body">
+    <h5 class="card-title">Auteurs/Développeurs</h5>
+    <p class="card-text">Supportez les incroyables développeurs de ce site en les suivants sur les réseaux.</p>
+    <a href="/credits" class="btn button-credits">Qui sont ces gens magnifiques ?</a>
+  </div>
+  <div class="card-footer text-muted">
+    * * *
+  </div>
+</div>-->
+{% endblock %}

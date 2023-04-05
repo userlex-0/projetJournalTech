@@ -1,0 +1,12 @@
+Journal (innovations informatique) 
+TechInnovations
+
+- pixel war
+- chat gpt
+- cybersecurité
+
+sidebar reference autres articles (externes)
+
+""" Pour le fichier main.py :
+  c'est le coté serveur du site (en python) le prof m'a dit qu'on pouvait faire ça, c'est beaucoup plus pratique pour gérer les différentes pages
+"""

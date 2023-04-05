@@ -1,0 +1,33 @@
+Dimanche 12 mars:
+Nous avons réalisé la page de présentation du code avec l'animation du logo et le bouton d'accès à la page d'acceuil.
+Nous avons écrit un script temporaire (notre base) pour créer un formulaire. Ce dernier permettra aux non-abonnés de se créer un compte, en inscrivant leurs noms, prénoms, lieux de résidence... (ce formulaire n'est pas fonctionnel nous peinons à trouver l'utilité mais nous l'avons quand meme fait pour le principe)
+Nous avons aussi écrit l'article sur Chatgpt. Nos sources osnt wikipédia et des articles sur chatgpt comme ouest france, 20 minutes...
+https://fr.wikipedia.org/wiki/ChatGPT
+
+https://www.ouest-france.fr/high-tech/midjourney-chatgpt-quel-role-lintelligence-artificielle-joue-t-elle-sur-la-desinformation-c3fbb8a2-ccab-11ed-8144-e74efc02d2d3
+
+https://www.20minutes.fr/high-tech/4029942-20230328-montpellier-utilisation-chatgpt-interdite-sein-mairie-metropole
+
+Mercredi 15 mars:
+Nous avons écrit l'article sur Pixel War. De plus nous avons débuter le code de la page principale avec les liens redirigeants vers les articles, aux crédis et à la page de connexion. Mais ces boutons ne marchaient pas encore.
+
+samedi 18 mars:
+Nous avons ensuite ajouté la possibilité de traduire la page. Nous avons écrit le code javascript pour le fond réactif de la page de bienvenue. Nous avons écrit l'article sur la cybersécurité grâce à ce site:
+https://tehtris.com/fr/blog/quels-seront-les-enjeux-cybersecurite-en-2022
+
+jeudi 23 mars:
+Nous avons réalisé une barre de recherche mais celle-ci ne servait pas à grand chose, ainsi nous l'avons enlevée.
+
+vendredi 24 mars:
+Nous avons finaliser le formulaire permettant de s'inscrire au site (toujours non fonctionnel). De plus nous avons créé une page avec les crédits que nous avons ensuite retiré car nous dépassions le nombre de page maximum.
+
+jeudi 30 mars:
+Nous avons finalisé les pages des articles, en rajoutant des liens vers les sites qui nous ont permis d'écrire ces derniers. De plus nous avons amélioré le code en rajoutant des liens vers d'autres sites. Par exemple un lien vers chatgpt, une vidéo sur pixel war...
+
+samedi 1 avril:
+Nous avons finalisé le code.
+Arranger tous les petites erreurs d'alignement des divs et de réaction css avec les boutons/animations
+Cela nous a permis d'approfondir l'utilisation du javascript et du css.
+
+
+Marie Heitz, Alexandre Lisiecki, Macéo Chalons
